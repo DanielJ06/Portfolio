@@ -6,6 +6,17 @@ const Index = (props) => {
             <section className="h-screen flex flex-col justify-center items-center">
                 <h1 className="text-5xl text-center font-bold">HI I’M DANIEL DE JESUS</h1>
                 <h3 className="text-2xl text-center">Fullstack Developer</h3>
+                <div className="flex mt-8 w-56 justify-between items-center">
+                    <a href="mailto:daniel.j.rodrigues06@gmail.com">
+                        <img src="icons8-send-email-50.png" alt="email"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/danieljrodrigues/">
+                        <img src="icons8-linkedin-50.png" alt="linkedin"/>
+                    </a>
+                    <a href="https://github.com/danielj06">
+                        <img src="icons8-github-48.png" alt="github"/>
+                    </a>
+                </div>
             </section>
             <section className="h-screen mt-8 p-20">
                 <h3 className="text-4xl tracking-widest">RESUME</h3>
@@ -28,7 +39,7 @@ const Index = (props) => {
                 </div>
                 <div className="mt-8 p-20 flex flex-col items-center">
                     <h3 className="text-4xl text-center tracking-widest">Toolbox</h3>
-                    <div className="flex flex-row items-center" >
+                    <div className="flex flex-row w-2/3 mx-auto justify-between items-center" >
                         <img src="icons8-nodejs-64.png" alt="nodejs"/>
                         <img src="icons8-react-native-50.png" alt="react"/>
                         <img src="icons8-redux-50.png" alt="redux"/>
