@@ -1,8 +1,14 @@
-import React from 'react';
+import { useRouter } from 'next/router';
 
 import { Container, TextWrapper, NavigationBtn } from '../styles/home';
 
 const Index = (props) => {
+  const router = useRouter();
+
+  const handleNavigate = () => {
+    router.push('/resume');
+  }
+
   return (
     <Container>
       <TextWrapper>
@@ -12,7 +18,7 @@ const Index = (props) => {
         <span>DEVELOPER</span>
       </TextWrapper>
 
-      <NavigationBtn>
+      <NavigationBtn onClick={handleNavigate} >
         Know me
       </NavigationBtn>
     </Container>

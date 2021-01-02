@@ -30,7 +30,7 @@ export const TextWrapper = styled.h1`
 
   span {
     filter: brightness(0) invert(1);
-    animation: ${colorCycle} 10s infinite ease-in-out;
+    animation: ${colorCycle} 10s infinite ease;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
