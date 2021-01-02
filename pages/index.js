@@ -1,16 +1,20 @@
 import React from 'react';
 
-import { Container, TextWrapper } from '../styles/home';
+import { Container, TextWrapper, NavigationBtn } from '../styles/home';
 
 const Index = (props) => {
   return (
     <Container>
       <TextWrapper>
-        <span>HI I'M</span>
-        <span>DANIEL</span>
+        <span>HI, I'M</span>
+        <span>DANIEL!</span>
         <span>FULLSTACK</span>
         <span>DEVELOPER</span>
       </TextWrapper>
+
+      <NavigationBtn>
+        Know me
+      </NavigationBtn>
     </Container>
   )
 }
