@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { FaArrowCircleLeft } from 'react-icons/fa';
-import { Container, Content, TextWrapper } from './styles';
+import { Container, Content, TextWrapper, MyPhoto, SpecialBtn, Right } from './styles';
 
 const Resume = () => {
   const router = useRouter();
@@ -34,6 +34,23 @@ const Resume = () => {
           </div>
         </TextWrapper>
       </Content>
+
+      <Right>
+        <MyPhoto src="/perfil.jpg" alt="photo"/>
+        <SpecialBtn>
+          <svg width="277" height="62">
+            <defs>
+              <linearGradient id="grad1">
+                <stop offset="0%" stop-color="#00C0FF"/>
+                <stop offset="50%" stop-color="#FFCF00"/>
+                <stop offset="100%" stop-color="#FC4F4F" />
+              </linearGradient>
+            </defs>
+            <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+          </svg>
+          <span>Some projects</span>
+        </SpecialBtn>
+      </Right>
     </Container>
   );
 }
