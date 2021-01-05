@@ -29,6 +29,10 @@ const Resume = () => {
   const handleNavigate = () => {
     router.push('/');
   }
+
+  const handleNavigateToProjects = () => {
+    router.push('/projects');
+  }
   
   return (
     <motion.div
@@ -93,7 +97,7 @@ const Resume = () => {
             >
               <MyPhoto src="/perfil.jpg" alt="photo"/>
             </motion.div>
-            <SpecialBtn>
+            <SpecialBtn onClick={handleNavigateToProjects} >
               <svg width="277" height="62">
                 <defs>
                   <linearGradient id="grad1">
