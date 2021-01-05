@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { FaArrowCircleLeft } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { Container, Content, TextWrapper, MyPhoto, SpecialBtn, Right } from './styles';
+import { Container, Content, TextWrapper, MyPhoto, SpecialBtn, Right } from '../styles/resume';
 
 const easing = [0.6, -0.05, 0.01, 0.99];
 const slide = {

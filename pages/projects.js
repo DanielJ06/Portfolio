@@ -6,7 +6,7 @@ import {
   useSpring,
   useTransform
 } from "framer-motion";
-import * as S from './styles';
+import * as S from '../styles/projects';
 import { useEffect, useState } from 'react';
 
 const easing = [0.6, -0.05, 0.01, 0.99];

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import * as S from './styles';
+import * as S from '../styles/contact';
 import { motion } from "framer-motion";
 import { 
   FaArrowCircleLeft, 
